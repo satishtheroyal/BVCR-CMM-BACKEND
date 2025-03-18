@@ -59,5 +59,5 @@ app.get("/api/results/:htno", async (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://mysql.hostinger.com:${PORT}`);
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
 });

@@ -10,7 +10,7 @@ app.use(cors());
 
 // MySQL Connection Setup
 const db = mysql.createConnection({
-    host: "127.0.0.1",
+    host: "mysql.hostinger.com",
     user: "u960367310_bvcrtest",
     password: "Bvcr@2022@", // Replace with your MySQL password
     database: "u960367310_bvcrtest"
@@ -59,5 +59,5 @@ app.get("/api/results/:htno", async (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://127.0.0.1:${PORT}`);
+    console.log(`🚀 Server running on http://mysql.hostinger.com:${PORT}`);
 });

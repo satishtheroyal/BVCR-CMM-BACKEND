@@ -58,5 +58,5 @@ app.get("/api/results/:htno", async (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log(`🚀 Server running on bgm7jxnphln37k59nkm6-mysql.services.clever-cloud.com:${PORT}`);
 });

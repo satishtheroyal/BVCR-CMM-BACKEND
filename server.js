@@ -10,10 +10,10 @@ app.use(cors());
 
 // MySQL Connection Setup
 const db = mysql.createConnection({
-    host: "mysql.hostinger.com",
-    user: "u960367310_bvcrtest",
-    password: "Bvcr@2022@", // Replace with your MySQL password
-    database: "u960367310_bvcrtest"
+   host="bgm7jxnphln37k59nkm6-mysql.services.clever-cloud.com",
+   user="upkjig35c7ilk769",
+   password="n4LYA8dlrGjZ6DxtrNnZ",  # Replace with your MySQL password
+   database="bgm7jxnphln37k59nkm6"
 
 });
 
